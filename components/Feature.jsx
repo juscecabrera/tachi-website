@@ -5,7 +5,7 @@ import carousel1 from '../assets/images/carousel1.png'
 const FeatureBox = ({ text1, text2, color }) => {
   return (
     <div 
-      className={`bg-[${color === 'blue' ? '#038FD9' : '#D95303'}] 2xl:w-44 2xl:h-44 w-20 sm:w-[120px] lg:w-[172px] h-20 sm:h-[110px] lg:h-[172px] feature-box`}>
+      className={`${color === 'blue' ? 'bg-[#038FD9]' : 'bg-[#D95303]'} 2xl:w-44 2xl:h-44 w-20 sm:w-[120px] lg:w-[172px] h-20 sm:h-[110px] lg:h-[172px] feature-box`}>
       <p className='font-bold 2xl:text-6xl text-2xl lg:text-[64px] sm:text-[40px] lg:mb-5'>{text1}</p>
       <p className="2xl:text-3xl text-base sm:text-2xl lg:text-[32px]">{text2}</p>
     </div>
