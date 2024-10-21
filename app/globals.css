@@ -24,4 +24,33 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .orange-button {
+    @apply bg-[#D95303] rounded-[20px] font-semibold shadow-lg shadow-slate-600 border-gray-600;
+  }
+
+  .feature-box {
+    @apply shadow-2xl text-white flex items-center justify-center text-center flex-col rounded-2xl;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Teachers';
+    src: url('../assets/fonts/Teachers-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Teachers';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/fonts/Teachers-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Teachers';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/Teachers-SemiBold.ttf') format('truetype');
+  }
 }
