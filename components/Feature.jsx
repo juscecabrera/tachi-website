@@ -14,7 +14,7 @@ const FeatureBox = ({ text1, text2, color }) => {
 
 const Feature = () => {
   return (
-    <section className='font-teachers grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 bg-white'>
+    <section className='font-teachers grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 bg-white text-black'>
 
       <div className='flex flex-row justify-between pt-8 lg:pt-12 col-start-2 col-end-12 sm:col-start-3 sm:col-end-11'>
         <FeatureBox text1={'+10'} text2={'Años'} color={'blue'}/>

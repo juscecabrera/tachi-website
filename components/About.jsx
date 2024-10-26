@@ -6,7 +6,7 @@ import { copy } from "@/assets/copy"
 
 const About = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 xl:gap-5 mt-5 xl:mt-10 sm:gap-y-8 bg-white' id="about">
+    <section className='grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 xl:gap-5 mt-5 xl:mt-10 sm:gap-y-8 bg-white text-black' id="about">
       <div className="xl:col-start-1 2xl:col-start-2 col-start-1 col-end-13 grid grid-cols-12 h-16">
         <h2 className='flex justify-center items-center xl:text-5xl text-2xl sm:text-[40px] font-bold leading-[60px] mb-6 sm:mb-0 col-start-2 col-end-12  gap-3 sm:gap-2 sm:justify-start lg:text-[50px]'>Hecho con ❤️<div className='bg-primary xl:h-1/2 w-24 sm:w-[263px] lg:w-[518px] xl:w-[700px] h-6'></div></h2>
       </div>
