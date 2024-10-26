@@ -39,7 +39,7 @@ const FAQSection = ({ q, a }) => {
 
 const FAQ = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-1 gap-x-5 gap-y-0 mt-10'>
+    <section className='grid grid-cols-12 grid-rows-1 gap-x-5 gap-y-0 mt-10 bg-white'>
       <h2 className='font-bold xl:text-5xl text-2xl sm:text-[40px] xl:leading-[60px] mb-6 col-start-2 col-end-12 flex justify-center items-center lg:justify-start lg:text-[50px] lg:mb-10'>Preguntas Frecuentes<div className='bg-primary xl:h-1/2 w-full h-6 ml-3 sm:w-[102px] lg:w-[328px] xl:w-[547.96px]'></div></h2>
       
       <div className="col-span-full grid grid-cols-12">
