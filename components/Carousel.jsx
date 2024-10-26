@@ -1,6 +1,14 @@
+'use client'
+
 import FeatureCarousel from "./FeatureCarousel"
 
 const Carousel = () => {
+  const wspLink = process.env.NEXT_PUBLIC_WHATSAPP_LINK
+  
+  const handleClick = () => {
+    window.open(wspLink)
+  }
+
   return (
     <section className='grid grid-cols-12 grid-rows-1 xl:gap-5 gap-1 mt-10 xl:h-[508px] h-[330px] text-white bg-[rgba(0,0,0,0.3)]'>
       <div className='z-10 flex flex-col justify-center items-center gap-6 col-start-2 sm:col-start-3 col-end-12 sm:col-end-11 row-start-1 row-end-2'>
@@ -8,7 +16,9 @@ const Carousel = () => {
           Disfruta tus postres hechos a medida
         </h2>
 
-        <button className='xl:h-16 xl:w-56 w-40 sm:w-[209px] h-[51px] sm:text-lg text-xl orange-button lg:text-2xl lg:w-56 lg:h-[76px]'>
+        <button 
+          onClick={() => handleClick()}
+          className='xl:h-16 xl:w-56 w-40 sm:w-[209px] h-[51px] sm:text-lg text-xl orange-button lg:text-2xl lg:w-56 lg:h-[76px]'>
           Pide aquí
         </button>
       </div>

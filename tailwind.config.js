@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // primary: '#038fd9'
+        primary: '#FACC15'
       },
       fontFamily : {
         teachers: ['Teachers', 'sans-serif']
@@ -26,7 +28,9 @@ module.exports = {
       },
       animation: {
         'move-carousel-l-to-r': 'moveCarouselLR 30s linear infinite',
+        'move-carousel-l-to-r-mobile': 'moveCarouselLR 8s linear infinite',
         'move-carousel-r-to-l': 'moveCarouselRL 30s linear infinite',
+        'move-carousel-r-to-l-mobile': 'moveCarouselRL 8s linear infinite',
       },
     },
   },
