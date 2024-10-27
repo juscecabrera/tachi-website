@@ -48,9 +48,9 @@ const Hero = () => {
         ? <div className='lg:hidden bg-[rgba(0,0,0,0.6)] h-screen absolute top-0 w-[60%] left-[40%] sm:w-[30%] sm:left-[70%]'>  
             <ul className='mt-20 flex flex-col justify-center items-center gap-14 text-2xl'>
               <li className=''><Image src={plusWhite} className='rotate-45 w-8 h-8' onClick={() => setHamburgerView(false)}/></li>
-              <li className=''><a href="#home">Inicio</a></li>
-              <li className=''><a href="#about">Nosotros</a></li>
-              <li className=''><a href="#contact">Contacto</a></li>
+              <li className=''><a href="#home" onClick={() => setHamburgerView(false)}>Inicio</a></li>
+              <li className=''><a href="#about" onClick={() => setHamburgerView(false)}>Nosotros</a></li>
+              <li className=''><a href="#contact" onClick={() => setHamburgerView(false)}>Contacto</a></li>
             </ul>
           </div>
         
