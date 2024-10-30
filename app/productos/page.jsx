@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import products1 from '../../assets/images/products1.jpeg'
 import { copy } from '@/assets/copy'
+import products1 from '../../assets/images/products1.jpeg'
 import pionono from '../../assets/images/pionono.png'
 import tortaChocolate from '../../assets/images/tortaChocolate.png'
 import pieLimon from '../../assets/images/pieLimon.png'
