@@ -47,8 +47,8 @@ const Nav = () => {
             }
         
 
-            <div className='lg:flex hidden justify-start lg:mb-10 items-center lg:col-start-7 lg:col-end-13'>
-                <ul className='lg:flex 2xl:flex flex-row gap-40 lg:gap-20 mr-28 items-center col-start-7 col-end-11 font-regular text-xl'>
+            <div className='lg:flex hidden justify-start lg:mb-10 items-center lg:col-start-6 lg:col-end-13'>
+                <ul className='lg:flex 2xl:flex flex-row gap-40 lg:gap-14 mr-28 items-center col-start-7 col-end-11 font-regular text-xl'>
                     <li className='lg:text-2xl'><Link href="/">Inicio</Link></li>
                   <li className='lg:text-2xl'><a href="/#about">Nosotros</a></li>
                     <li className='lg:text-2xl'><Link href="/productos">Productos</Link></li>

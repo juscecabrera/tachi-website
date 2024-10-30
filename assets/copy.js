@@ -22,9 +22,25 @@ let faqA = [
     'Si! También hacemos tortas clásicas como torta de chocolate, pie de limón, carrot cake, etc.'
 ]
 
+
+let product1Desc = ['Nuestra especialidad!', <br></br>, 'Se hace la torta según el pedido del cliente. El costo varía según el diseño, la complejidad, tamaño, etc.']
+
+let product3Desc = ['Vienen todo tipo de bocaditos: galletas, alfajores, brownies, trufas, etc. Se puede pedir por docena, por centenas, según se pida!']
+
+let product4Desc = ['Vienen todo tipo de bocaditos: sanguchitos, triples, etc. Se puede pedir por docena, por centenas, según se pida!']
+
+let product5Desc = ['Incluye masa de galletas, decorativos, crema pastelera. Con este paquete pueden hacer sus propias galletas!']
+
+
+
+
 export const copy = {
     featureCopy, 
     aboutCopy, 
     faqQ,
-    faqA
+    faqA,
+    product1Desc,
+    product3Desc,
+    product4Desc,
+    product5Desc,
 }
