@@ -28,7 +28,7 @@ body {
   }
 
   .orange-button {
-    @apply bg-[#D95303] text-white rounded-[20px] font-semibold shadow-lg shadow-slate-800 border-gray-600;
+    @apply bg-[#D95303] text-white rounded-[20px] font-semibold shadow-lg shadow-slate-500 border-gray-600;
   }
 
   .feature-box {
