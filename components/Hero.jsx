@@ -1,15 +1,10 @@
 'use client'
 
-import { useState } from 'react'
-import tachiLogo from '../assets/svg/tachiLogo.svg'
 import heroImg from '../assets/images/heroImg.png'
-import hamburger from '../assets/svg/hamburger.svg'
 import Image from 'next/image'
-import plusWhite from '../assets/svg/plusWhite.svg'
 
 
 const Hero = () => {
-  const [hamburgerView, setHamburgerView] = useState(false)
 
   
   const wspLink = process.env.NEXT_PUBLIC_WHATSAPP_LINK
@@ -20,53 +15,7 @@ const Hero = () => {
 
   return (
     //el bg debe ser el svg con la curva abajo
-    // text-white bg-gradient-to-b from-primary to-[#066698] para el fondo azul. Probando fondo amarillo
-    //arreglar el breakpoint LG
-    <section id='home' className='text-white bg-gradient-to-b bg-yellow-400 grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 font-teachers pb-7 lg:pb-12'>
-      <nav className='col-span-full row-1 grid grid-cols-12 gap-1 lg:gap-5 py-6 lg:py-3 lg:h-[188px]'>
-          <Image 
-            className='col-start-2 col-end-5 w-[62px] h-[62px] sm:w-[67px] sm:h-[67px] lg:w-36 lg:h-36'
-            src={tachiLogo}
-            alt='tachilogo'
-          />
-
-        
-        {/* aparece en xs, sm y md */}
-        
-        
-        <div className='col-start-10 col-end-12 flex justify-center items-center lg:hidden'>
-          <Image 
-            src={hamburger}
-            width={48}
-            className='col-start-10 col-end-12'
-            alt='hamburger'
-            onClick={() => setHamburgerView(prev => !prev)}
-          />
-        </div>
-
-        {hamburgerView 
-        ? <div className='lg:hidden bg-[rgba(0,0,0,0.6)] h-screen absolute top-0 w-[60%] left-[40%] sm:w-[30%] sm:left-[70%]'>  
-            <ul className='mt-20 flex flex-col justify-center items-center gap-14 text-2xl'>
-              <li className=''><Image src={plusWhite} className='rotate-45 w-8 h-8' onClick={() => setHamburgerView(false)}/></li>
-              <li className=''><a href="#home" onClick={() => setHamburgerView(false)}>Inicio</a></li>
-              <li className=''><a href="#about" onClick={() => setHamburgerView(false)}>Nosotros</a></li>
-              <li className=''><a href="#contact" onClick={() => setHamburgerView(false)}>Contacto</a></li>
-            </ul>
-          </div>
-        
-        : ''
-        }
-        
-
-        <div className='lg:flex hidden justify-start lg:mb-10 items-center lg:col-start-7 lg:col-end-13'>
-          <ul className='lg:flex 2xl:flex flex-row gap-40 lg:gap-20 mr-28 items-center col-start-7 col-end-11 font-regular text-xl'>
-            <li className='lg:text-2xl'><a href="#home">Inicio</a></li>
-            <li className='lg:text-2xl'><a href="#about">Nosotros</a></li>
-            <li className='lg:text-2xl'><a href="#contact">Contacto</a></li>
-          </ul>
-
-        </div>
-      </nav>
+    <section id='home' className='text-white bg-gradient-to-b bg-yellow-400 grid grid-cols-12 grid-rows-1 gap-1 lg:gap-5 font-teachers py-7 lg:pb-12'>
 
     {/* en 2xl el h1 es 7xl, el p es 2xl */}
     <div className='col-span-full row-start-2 row-end-2 grid grid-cols-12 gap-1 lg:col-start-2 lg:col-end-9' >

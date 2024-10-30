@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     // bg-[#F0E8E3]
-    <footer className='pt-12 xl:pt-6 xl:grid-rows-1 grid grid-cols-12 grid-rows-1 sm:grid-rows-2 xl:gap-x-5 gap-x-1 gap-y-0 lg:gap-x-5 bg-white'> {/*  xl:h-[400px] h-[678px]*/}
+    <footer className='font-teachers pt-12 xl:pt-6 xl:grid-rows-1 grid grid-cols-12 grid-rows-1 sm:grid-rows-2 xl:gap-x-5 gap-x-1 gap-y-0 lg:gap-x-5 bg-white'> {/*  xl:h-[400px] h-[678px]*/}
       <div className='col-start-2 xl:col-end-5 sm:col-end-7 sm:row-span-full col-end-12 xl:block flex justify-center sm:items-start items-center flex-col pb-4'>
         <Image src={tachiLogo} className='' alt='tachilogo'/>
         <p className='xl:text-lg my-6 sm:mt-8'>Tachi Galletas y Tortas Personalizadas <br /> Desarrollado por Musa Media</p>

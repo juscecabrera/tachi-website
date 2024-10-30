@@ -11,15 +11,15 @@ let faqQ = [
     '¿Cuánto demora la entrega?',
     '¿Con cuánto tiempo de antelación tengo que hacer mi pedido?',
     '¿Hacen bocaditos salados y dulces?',
-    '¿Solo hacen pedidos personalizados o también puedo pedir tortas clásicas?'
+    '¿Hacen otras cosas aparte de tortas personalizadas?'
 ]
 
 let faqA = [
-    'Hacemos entregas a todo Lima Metropolitana y el costo varía según la zona!',
+    'Hacemos entregas a Surco, San Borja, Barranco, Miraflores, Lince, Surquillo, San Luis, Chorrillos. El costo varía según la zona!',
     'Los pedidos se entregan en 2 o 3 días!',
-    'Los pedidos se hacen con 2 o 3 días de antelación',
-    'Si! También hacemos bocaditos dulces y salados',
-    'También hacemos tortas clásicas como torta de chocolate, pie de limón, carrot cake, brownies, etc.'
+    'Los pedidos se hacen con mínimo 48 horas de antelación!',
+    'Claro! Hacemos sanguchitos, trufas, alfajores, triples, brownies, etc. También hacemos galletas decoradas para navidad, Halloween, bodas, cumpleaños, todo tipo de eventos!',
+    'Si! También hacemos tortas clásicas como torta de chocolate, pie de limón, carrot cake, etc.'
 ]
 
 export const copy = {

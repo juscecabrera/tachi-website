@@ -5,8 +5,10 @@ import Carousel from "./Carousel";
 import FAQ from "./FAQ";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Nav from "./Nav";
 
 export {
+    Nav,
     Hero,
     Feature,
     About,

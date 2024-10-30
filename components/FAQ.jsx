@@ -44,7 +44,7 @@ const FAQ = () => {
       
       <div className="col-span-full grid grid-cols-12">
         <FAQSection q={copy.faqQ[0]} a={copy.faqA[0]}/>
-        <FAQSection q={copy.faqQ[1]} a={copy.faqA[1]}/>
+        {/* <FAQSection q={copy.faqQ[1]} a={copy.faqA[1]}/> */}
         <FAQSection q={copy.faqQ[2]} a={copy.faqA[2]}/>
         <FAQSection q={copy.faqQ[3]} a={copy.faqA[3]}/>
         <FAQSection q={copy.faqQ[4]} a={copy.faqA[4]}/>
