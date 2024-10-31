@@ -33,7 +33,7 @@ const Nav = () => {
             </div>
 
             {hamburgerView 
-            ? <div className='lg:hidden bg-[rgba(0,0,0,0.6)] h-screen absolute top-0 w-[60%] left-[40%] sm:w-[30%] sm:left-[70%]'>  
+            ? <div className='lg:hidden bg-[rgba(0,0,0,0.6)] h-screen fixed top-0 w-[60%] left-[40%] sm:w-[30%] sm:left-[70%]'>  
                 <ul className='mt-20 flex flex-col justify-center items-center gap-14 text-2xl'>
                     <li className=''><Image src={plusWhite} className='rotate-45 w-8 h-8' onClick={() => setHamburgerView(false)}/></li>
                     <li className=''><Link href="/" onClick={() => setHamburgerView(false)}>Inicio</Link></li>
