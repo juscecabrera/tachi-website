@@ -19,7 +19,7 @@ const Carousel = () => {
         <button 
           onClick={() => handleClick()}
           className='xl:h-16 xl:w-56 w-40 sm:w-[209px] h-[51px] sm:text-lg text-xl orange-button lg:text-2xl lg:w-56 lg:h-[76px]'>
-          Pide aquí
+          <a href={wspLink}>Pide aquí</a>
         </button>
       </div>
       

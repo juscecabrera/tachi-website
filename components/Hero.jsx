@@ -5,8 +5,6 @@ import Image from 'next/image'
 
 
 const Hero = () => {
-
-  
   const wspLink = process.env.NEXT_PUBLIC_WHATSAPP_LINK
   
   const handleClick = () => {
@@ -24,7 +22,8 @@ const Hero = () => {
       <button 
         onClick={() => handleClick()}
         className='orange-button text-white w-40 sm:w-[211px] h-[51px] sm:h-[60px] text-lg col-start-4 col-end-10 sm:col-start-3 lg:col-start-3 lg:text-2xl lg:w- [224px] lg:h-[76px]'>
-        Pide aquí
+        <a href={wspLink}>Pide aquí</a>
+        
       </button>
     </div>
     

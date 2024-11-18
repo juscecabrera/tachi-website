@@ -12,7 +12,7 @@ import paquete1 from '../../assets/images/paquete1.webp'
 import galletas from '../../assets/images/galletas.webp'
 
 const ProductCard = ({ text, price, image, descripcion }) => { 
-
+  const wspLink = process.env.NEXT_PUBLIC_WHATSAPP_LINK
   return (
     <div className='border-black border-2 rounded-[20px] col-start-2 col-end-12 p-4 flex flex-col items-start justify-start gap-4 w-full sm:w-[46%]
     lg:flex-row lg:items-center lg:w-[49%] 2xl:w-[30%]
@@ -34,8 +34,8 @@ const ProductCard = ({ text, price, image, descripcion }) => {
         </div>
         
         <div className='flex flex-col items-start w-full gap-4'>
-          <p className='text-xl'>{price}</p>
-          <button className='orange-button px-9 h-12 text-lg'>Pide aqui</button>  
+          {/* <p className='text-xl'>{price}</p> */}
+          <button className='orange-button px-9 h-12 text-lg'><a href={wspLink} target='blank'>Pide aquí</a></button>  
         </div>
 
       </div>
